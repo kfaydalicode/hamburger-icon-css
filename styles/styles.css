@@ -1,0 +1,33 @@
+
+:root {
+    --main-color: #D84282;
+}
+
+#menu {
+    width: 35px;
+    height: 5px;
+    background-color: var(--main-color);
+    display: inline-block;
+
+}
+
+#menu::before {
+    content: "";
+    width: 35px;
+    height: 5px;
+    background-color: var(--main-color);
+    display: inline-block;
+
+
+}
+
+#menu::after {
+    content: "";
+    width: 35px;
+    height: 5px;
+    background-color: var(--main-color);
+    display: block;
+
+}
+
+/*scoop*/
